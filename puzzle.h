@@ -65,5 +65,6 @@ int do_puzzle_1(std::ifstream &file);
 int do_puzzle_2(std::ifstream &file);
 
 uint64_t dijkstra(const Grid &grid);
+uint64_t dijkstra_2(const Grid &grid);
 
 #endif //PUZZLE_H
